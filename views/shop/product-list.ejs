@@ -1,11 +1,11 @@
-<%- include('partials/start.ejs') %>
-    <title><%= title %></title>
+<%- include('../partials/head.ejs') %>
+    <title><%= pageTitle %></title>
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/product.css">
 </head>
 
 <body>
-    <%- include('partials/navigation.ejs') %>
+    <%- include('../partials/navigation.ejs') %>
     <main>
         <div class="grid">
         <% if(products.length <= 0) { %>
@@ -32,7 +32,7 @@
                     <% } %>
         </div>
     </main>
-<%- include('partials/end.ejs') %>
+<%- include('../partials/end.ejs') %>
 
 
 
