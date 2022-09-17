@@ -1,14 +1,23 @@
 [
   {
+    "id": "234f",
     "title": "A Book",
     "imageUrl": "https://www.publicdomainpictures.net/pictures/10000/velka/1-1210009435EGmE.jpg",
     "description": "This is an awesome book!",
     "price": "19"
   },
   {
+    "id": "235f",
     "title": "Macbook Pro 2022",
     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtXHb3rNrKPvSpqKSR9T0eXa1BtQAOFVqX5g&usqp=CAU",
     "description": "The best Macbook ever released!!",
     "price": "1299.99"
+  },
+  {
+    "title": "Another Book",
+    "imageUrl": "https://www.publicdomainpictures.net/pictures/10000/velka/1-1210009435EGmE.jpg",
+    "description": "This is another awesome book that you should read!",
+    "price": "15.99",
+    "id": "0.7361486335137812"
   }
 ]
