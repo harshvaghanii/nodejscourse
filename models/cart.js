@@ -14,7 +14,17 @@ const filePath = path.join(__dirname, "..", "data", "cart.json");
 // };
 
 class Cart {
-  //  static fetchAllItems = () => {};
+  
+  static fetchAllItems = (callback) => {
+    fs.readFile(filePath, (err, data) => {
+      if (!err) {
+        const cartItems = JSON.parse(data);
+        callback(cartItems);
+      } else {
+        callback({});
+      }
+    });
+  };
 
   static addProduct(id, productPrice) {
     // * Fetch the previous cart

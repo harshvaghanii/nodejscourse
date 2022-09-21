@@ -14,10 +14,17 @@
     "price": "1299.99"
   },
   {
-    "title": "Another Book",
-    "imageUrl": "https://www.publicdomainpictures.net/pictures/10000/velka/1-1210009435EGmE.jpg",
-    "description": "This is another awesome book that you should read!",
-    "price": "15.99",
-    "id": "0.7361486335137812"
+    "title": "Iphone 14",
+    "imageUrl": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/Apple_iphone_14_Pro_iPhone_14_Pro_Max_concept_renderings_drdNBC.jpg",
+    "description": "A new Iphone launched in 2022.",
+    "price": "1099.99",
+    "id": "0.695075160076132"
+  },
+  {
+    "id": "0.8451418483554793",
+    "title": "Ikigai",
+    "imageUrl": "https://n2.sdlcdn.com/imgs/j/s/h/IKIGAI-English-Hardcover-Garcia-Hector-SDL947335178-1-1c6be.jpg",
+    "description": "This is the first book that I have ever read!!",
+    "price": "10.99"
   }
 ]
